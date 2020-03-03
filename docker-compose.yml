@@ -13,7 +13,7 @@ services:
         condition: service_started
     privileged: true
     ports:
-      - 80:80
+      - 7000:80
     links:
       - mongo
       - redis
