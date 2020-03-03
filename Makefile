@@ -1,5 +1,5 @@
 up:
-	docker-compose pull --include-deps --ignore-pull-failures
+	docker-compose pull --ignore-pull-failures
 	docker-compose up --detach
 
 down:
