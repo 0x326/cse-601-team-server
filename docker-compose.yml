@@ -22,7 +22,7 @@ services:
       - redis
     privileged: true
     expose:
-      - 80
+      - '80'
     links:
       - mongo
       - redis
@@ -111,7 +111,7 @@ services:
     image: mongo
     container_name: mongo
     expose:
-      - 27017
+      - '27017'
     volumes:
       - ~/mongo_data:/data/db
     healthcheck:
@@ -125,7 +125,7 @@ services:
     image: redis
     container_name: redis
     expose:
-      - 6379
+      - '6379'
     volumes:
       - ~/redis_data:/data
 
@@ -134,7 +134,7 @@ services:
   #    image: rroemhild/test-openldap
   #    container_name: ldap
   #    expose:
-  #        - 389
+  #        - '389'
 
   # See https://github.com/jwilder/nginx-proxy for documentation on how to configure the nginx-proxy container,
   # and https://github.com/overleaf/overleaf/wiki/HTTPS-reverse-proxy-using-Nginx for an example of some recommended
