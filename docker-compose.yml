@@ -55,7 +55,7 @@ services:
       ## Set for SSL via nginx-proxy
       #VIRTUAL_HOST: 103.112.212.22
 
-      SHARELATEX_SITE_URL: https://hotdog.stevenyu.xyz/overleaf/
+      SHARELATEX_SITE_URL: https://hotdog.stevenyu.xyz/
       SHARELATEX_BEHIND_PROXY: 'true'
       SHARELATEX_SECURE_COOKIE: 'true'
       # SHARELATEX_NAV_TITLE: Our ShareLaTeX Instance
